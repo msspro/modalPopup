@@ -4,7 +4,7 @@ hs.wrapperClassName = 'draggable-header';
 
 (function() {
 	
-		const urlInfo = 'https://www.atratopago.com/';
+		const urlInfo = 'http://31071630beea.ngrok.io/ecommerce';
 		const urlPago = 'https://www.atratopago.com/formulario';
 	
 		const addbtnAtratoInfo = () => {
