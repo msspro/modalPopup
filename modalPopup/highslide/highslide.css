@@ -1,4 +1,74 @@
 
+/* Boton de atrato pago info */
+
+.btn-atrato-info-link {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 27px;
+   font-weight: 100;
+   padding: 23px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn-atrato-info-link:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.btn-atrato-info {
+	box-shadow: 0px 0px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:italic;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.btn-atrato-info:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.btn-atrato-info:active {
+	position:relative;
+	top:1px;
+}
+
+/***********************************************/
+
 .highslide-container div {
 	font-family: Verdana, Helvetica;
 	font-size: 10pt;
@@ -60,7 +130,7 @@
 	background: black;
 }
 a.highslide-full-expand {
-   background: url(graphics/fullexpand.gif) no-repeat;
+   background: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/fullexpand.gif) no-repeat;
    display: block;
    margin: 0 10px 10px 0;
    width: 34px;
@@ -77,7 +147,7 @@ a.highslide-full-expand {
 	border: 1px solid white;
 	background-color: white;
 	padding-left: 22px;
-	background-image: url(graphics/loader.white.gif);
+	background-image: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/loader.white.gif);
 	background-repeat: no-repeat;
 	background-position: 3px 1px;
 }
@@ -121,7 +191,7 @@ a.highslide-credits:hover i {
 	width: 30px;
 	height: 30px;
 	cursor: pointer;
-	background: url(graphics/close.png);
+	background: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/close.png);
 	/* NOTE! For IE6, you also need to update the highslide-ie6.css file. */
 }
 
@@ -180,7 +250,7 @@ html>/**/body .highslide-gallery ul img {
 .highslide-controls {
 	width: 195px;
 	height: 40px;
-	background: url(graphics/controlbar-white.gif) 0 -90px no-repeat;
+	background: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/controlbar-white.gif) 0 -90px no-repeat;
 	margin: 20px 15px 10px 0;
 }
 .highslide-controls ul {
@@ -190,7 +260,7 @@ html>/**/body .highslide-gallery ul img {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	background: url(graphics/controlbar-white.gif) right -90px no-repeat;
+	background: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/controlbar-white.gif) right -90px no-repeat;
 
 }
 .highslide-controls li {
@@ -200,7 +270,7 @@ html>/**/body .highslide-gallery ul img {
 	list-style: none;
 }
 .highslide-controls a {
-	background-image: url(graphics/controlbar-white.gif);
+	background-image: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/controlbar-white.gif);
 	display: block;
 	float: left;
 	height: 30px;
@@ -330,7 +400,7 @@ html>/**/body .highslide-gallery ul img {
 	margin-top: 5px;
 	height: 11px;
 	width: 11px;
-	background: url(graphics/resize.gif) no-repeat;
+	background: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/resize.gif) no-repeat;
 }
 .highslide-footer .highslide-resize span {
 	display: none;
@@ -381,7 +451,7 @@ html>/**/body .highslide-gallery ul img {
 	display: block;
 	height: 16px;
 	width: 16px;
-	background-image: url(graphics/closeX.png);
+	background-image: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/closeX.png);
 }
 .draggable-header .highslide-header .highslide-close a:hover {
 	background-position: 0 16px;
@@ -495,7 +565,7 @@ html>/**/body .highslide-gallery ul img {
 .dark .highslide-controls,
 .dark .highslide-controls ul,
 .dark .highslide-controls a {
-	background-image: url(graphics/controlbar-black-border.gif);
+	background-image: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/controlbar-black-border.gif);
 }
 
 /* hs.wrapperClassName = 'floating-caption' */
@@ -517,7 +587,7 @@ html>/**/body .highslide-gallery ul img {
 	cursor: default;
 	padding: 0 0 0 22px;
 	margin: 0;
-	background: url(graphics/icon.gif) no-repeat 0 1px;
+	background: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/icon.gif) no-repeat 0 1px;
 }
 .controls-in-heading .highslide-controls {
 	width: 105px;
@@ -537,7 +607,7 @@ html>/**/body .highslide-gallery ul img {
 	padding: 0;
 }
 .controls-in-heading .highslide-controls a {
-	background-image: url(graphics/controlbar-white-small.gif);
+	background-image: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/controlbar-white-small.gif);
 	height: 20px;
 	width: 20px;
 }
@@ -617,7 +687,7 @@ html>/**/body .highslide-gallery ul img {
 	display: none;
 }
 .text-controls li {
-    background-image: url(graphics/controlbar-text-buttons.png);
+    background-image: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/controlbar-text-buttons.png);
 	background-position: right top !important;
 	padding: 0;
 	margin-left: 15px;
@@ -625,7 +695,7 @@ html>/**/body .highslide-gallery ul img {
 	width: auto;
 }
 .text-controls a {
-    background: url(graphics/controlbar-text-buttons.png) no-repeat;
+    background: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/controlbar-text-buttons.png) no-repeat;
     background-position: left top !important;
     position: relative;
     left: -10px;
@@ -635,7 +705,7 @@ html>/**/body .highslide-gallery ul img {
 	text-decoration: none !important;
 }
 .text-controls a span {
-	background: url(graphics/controlbar-text-buttons.png) no-repeat;
+	background: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/controlbar-text-buttons.png) no-repeat;
     margin: 1px 2px 1px 10px;
 	display: block;
     min-width: 4em;
@@ -763,7 +833,7 @@ html>/**/body .highslide-gallery ul img {
 .highslide-thumbstrip-horizontal .highslide-scroll-up div {
 	margin-bottom: 10px;
 	cursor: pointer;
-	background: url(graphics/scrollarrows.png) left center no-repeat;
+	background: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/scrollarrows.png) left center no-repeat;
 	height: 42px;
 }
 .highslide-thumbstrip-horizontal .highslide-scroll-down {
@@ -777,7 +847,7 @@ html>/**/body .highslide-gallery ul img {
 .highslide-thumbstrip-horizontal .highslide-scroll-down div {
 	margin-bottom: 10px;
 	cursor: pointer;
-	background: url(graphics/scrollarrows.png) center right no-repeat;
+	background: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/scrollarrows.png) center right no-repeat;
 	height: 42px;
 }
 .highslide-thumbstrip-horizontal table {
@@ -823,7 +893,7 @@ html>/**/body .highslide-gallery ul img {
 .highslide-thumbstrip-vertical .highslide-scroll-up div {
 	margin-left: 10px;
 	cursor: pointer;
-	background: url(graphics/scrollarrows.png) top center no-repeat;
+	background: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/scrollarrows.png) top center no-repeat;
 	height: 25px;
 }
 .highslide-thumbstrip-vertical .highslide-scroll-down {
@@ -837,7 +907,7 @@ html>/**/body .highslide-gallery ul img {
 .highslide-thumbstrip-vertical .highslide-scroll-down div {
 	margin-left: 10px;
 	cursor: pointer;
-	background: url(graphics/scrollarrows.png) bottom center no-repeat;
+	background: url(https://msspro.github.io/modalPopup/modalPopup/highslide/graphics/scrollarrows.png) bottom center no-repeat;
 	height: 25px;
 }
 .highslide-thumbstrip-vertical table {
