@@ -22,7 +22,7 @@ lang : {
 	previousTitle : 'Previous (arrow left)',
 	nextTitle : 'Next (arrow right)',
 	moveTitle : 'Move',
-	fullExpandText : '1:1',
+	fullExpandText : '1:2',
 	restoreTitle : 'Click to close image, click and drag to move. Use arrow keys for next and previous.'
 },
  
