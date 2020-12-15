@@ -56,7 +56,7 @@ preserveContent : true, // Preserve changes made to the content and position of 
 objectLoadTime : 'before', // Load iframes 'before' or 'after' expansion.
 cacheAjax : true, // Cache ajax popups for instant display. Can be overridden for each popup.
 dragByHeading: true,
-minWidth: 800,
+minWidth: 600,
 minHeight: 800,
 allowSizeReduction: true, // allow the image to reduce to fit client size. If false, this overrides minWidth and minHeight
 outlineType : null,  //'drop-shadow', // set null to disable outlines
