@@ -2,7 +2,7 @@ hs.graphicsDir = 'https://msspro.github.io/modalPopup/modalPopup/highslide/graph
 hs.outlineType = 'rounded-white';
 hs.wrapperClassName = 'draggable-header';
 
-(function() {
+//(function() {
 	
 		const urlInfo = 'http://8a0c8984a87c.ngrok.io/ecommerce';
 		const urlPago = 'https://www.atratopago.com/formulario';
@@ -41,8 +41,10 @@ hs.wrapperClassName = 'draggable-header';
 		  divAtratoPago.innerHTML = innerHTML;		  
 		};
 
-		addbtnAtratoInfo();
-		addbtnAtratoPago();
+		//addbtnAtratoInfo();
+		//addbtnAtratoPago();
 
-})();
+//})();
+document.addEventListener("DOMContentLoaded",addbtnAtratoInfo,false);
+document.addEventListener("DOMContentLoaded",addbtnAtratoPago,false);
 
