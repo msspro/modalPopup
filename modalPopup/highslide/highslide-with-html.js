@@ -1470,9 +1470,9 @@ getIframePageHeight : function() {
 		if (hs.ie) h += parseInt(doc.body.currentStyle.marginTop) 
 			+ parseInt(doc.body.currentStyle.marginBottom) - 1;
 	} catch (e) { // other domain
-		h = 300;
+		h = 800; //300;
 	}
-	return h;
+	return 800;//h;
 },
 correctIframeSize : function () {
 	var wDiff = this.innerContent.offsetWidth - this.ruler.offsetWidth;
