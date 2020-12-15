@@ -57,7 +57,7 @@ objectLoadTime : 'before', // Load iframes 'before' or 'after' expansion.
 cacheAjax : true, // Cache ajax popups for instant display. Can be overridden for each popup.
 dragByHeading: true,
 minWidth: 700,
-minHeight: 1000,
+minHeight: 1200,
 allowSizeReduction: true, // allow the image to reduce to fit client size. If false, this overrides minWidth and minHeight
 outlineType : null,  //'drop-shadow', // set null to disable outlines
 skin : {
