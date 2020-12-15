@@ -51,7 +51,7 @@ enableKeyListener : true,
 openerTagNames : ['a'], // Add more to allow slideshow indexing
 
 allowWidthReduction : false,
-allowHeightReduction : true,
+allowHeightReduction : false,
 preserveContent : true, // Preserve changes made to the content and position of HTML popups.
 objectLoadTime : 'before', // Load iframes 'before' or 'after' expansion.
 cacheAjax : true, // Cache ajax popups for instant display. Can be overridden for each popup.
